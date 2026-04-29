@@ -1,0 +1,20 @@
+#quiz-container, #score-container {
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-size: 20px;
+    display: flex;
+    margin: 10px;
+}
