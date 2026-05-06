@@ -2,35 +2,47 @@
 const quizData = [ 
     // Question 1
     { 
-        question: "What is a tuple?", 
+        question: "How do you define a function?", 
         options: [
-            "An ordered collection of items that cannot be changed", 
-            "An unordered collection of unique items", 
-            "An ordered collection of key-value pairs", 
-            "An ordered collection of items that can be changed"
+            "let function()", 
+            "function functionName()", 
+            "define FunctionName", 
+            "var FunctionName"
     ], 
-    answer: 0,
+    answer: 1,
     },
     // Question 2
     {
-        question: "What is a dictionary?",
+        question: "How do you define a variable?",
         options: [
-            "An ordered collection of items that cannot be changed", 
-            "An unordered collection of unique items", 
-            "An ordered collection of key-value pairs", 
-            "An ordered collection of items that can be changed"
+            "variable()",
+            "var variableName =", 
+            "let variableName =", 
+            "variable let = "
         ],
     answer: 2, 
     },
     // Question 3
     {
-        question: "What does 'NOT' return?",
+        question: "What is a while loop  used for?",
         options: [
-            "True if the variable is false, and vice versa",
-            "True if the variable is true and vice versa"
+            "Grids, tables, paired itterations",
+            "Stop when you find something",
+            "Open-ended repetition",
+            "Skip invalid input or unwanted values"
         ],
-    answer: 0,
-    }
+    answer: 2,
+    },
+    // Question 4
+    {
+        question: "What variable declaration cannot be reassigned nor redeclared?",
+        options: [
+            "let",
+            "const",
+            "var"
+        ],
+    answer: 1,
+    },
 ];
 
 // Set default variable values
